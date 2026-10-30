@@ -188,7 +188,7 @@ function Notes() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1>📝 My Notes</h1>
+        <h1>📝 Vishal Bhai ke Notes</h1>
         <div className="topbar-actions">
           <button type="button" className="btn danger" onClick={deleteAll} disabled={busy || loading}>
             🗑 Delete all notes
